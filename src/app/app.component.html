@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+
+<h4>{{ name }}님 환영합니다</h4>
+
+<input type="text" name="name" id="name" #nameInput>
+<button type="button" (click)="setName(nameInput.value)">입력</button>
